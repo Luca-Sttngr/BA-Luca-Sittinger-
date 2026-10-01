@@ -331,7 +331,7 @@ for typ, x_start, dx_schritt, x_end, b_input, h_input, ks_vorgabe, n_kanal in du
 
             # 7.3 Wandtemperatur auf Heißgasseite
             Twg = Twc + ((q_lokal * s) / λWand)
-            print(Twg)
+        
             # 7.4 Energieerhaltung
             h_fluid = h_fluid + ((q_lokal * A_eff) / m_dot_kanal)  
 
